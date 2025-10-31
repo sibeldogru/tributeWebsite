@@ -25,6 +25,7 @@ A responsive tribute website dedicated to author Carmen Maria Machado, featuring
 ### Typography
 - Primary Font: Merriweather Sans (300-800 weights)
 - Responsive font sizes
+- Italic styling for quotes
 
 ## 📄 Pages Description
 
@@ -70,6 +71,3 @@ A responsive tribute website dedicated to author Carmen Maria Machado, featuring
 ---
 
 *This project demonstrates modern web development techniques while paying tribute to an influential contemporary author.*
-- Italic styling for quotes
-
-## 📁 File Structure
