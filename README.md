@@ -26,7 +26,6 @@ A responsive tribute website dedicated to author Carmen Maria Machado, featuring
 - Primary Font: Merriweather Sans (300-800 weights)
 - Responsive font sizes
 
-- 
 ## 📄 Pages Description
 
 1. **Home** (`home.html`): Features a prominent quote from the author
