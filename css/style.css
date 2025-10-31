@@ -1,0 +1,138 @@
+:root {
+    --background-color: #010707;
+    --main-color: #071b1c; 
+    --text-color: #bca99b; 
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden; 
+}
+
+body {
+    background-color: var(--main-color);
+    color: var(--text-color);
+    font-family: "Merriweather Sans", sans-serif;
+    display: flex;
+}
+
+/* LEFT IMAGE - FIXED */
+.image-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 40vw; 
+    height: 100vh;
+    overflow: hidden; 
+    z-index: 1
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+ol {
+    text-decoration: none;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.list {
+    padding-top: 20%;
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    transition: color 0.3s;
+}
+
+
+/* RIGHT PANEL */
+.content {
+    margin-left: 40vw; 
+    width: 60vw;
+    height: 100vh;
+    overflow-y: auto;
+    background-color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+}
+
+/* HEADER / NAVBAR */
+header.box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60px;
+    background-color: var(--background-color);
+    padding-right: 30px;
+    flex-shrink: 0;
+}
+
+.navbar-items a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 20px;
+    transition: color 0.3s;
+}
+
+.navbar-items a:hover {
+    color: #fff;
+}
+
+/* QUOTE CONTAINER */
+.quote-container {
+    padding: 60px 40px;
+    font-size: 20px;
+    line-height: 1.6;
+    background-color: var(--main-color);
+}
+
+.quote {
+    padding-top: 20%;
+    text-align: center;
+}
+
+.bio {
+    font-size: 12px;
+    font-family: "Merriweather Sans", sans-serif;
+}
+
+h4 {
+    margin-top: 20px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    flex-shrink: 0;
+    margin-top: auto;
+}
+
+footer a:link,
+footer a:visited,
+footer a:hover,
+footer a:active {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+    
